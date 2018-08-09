@@ -1,0 +1,14 @@
+platform :ios, "8.0" #手机的系统 
+use_frameworks!
+target 'hscy' do 
+ pod 'Alamofire'
+ pod 'SwiftyJSON'
+ pod 'AMap3DMap-NO-IDFA'
+ pod 'AMapLocation-NO-IDFA'
+ pod 'AMapSearch-NO-IDFA'
+ pod 'SnapKit', '~> 3.2.0'
+ pod 'SVProgressHUD'
+ pod 'JPush'
+project 'path/to/project.xcodeproj'
+xcodeproj ‘hscy.xcodeproj'
+ end

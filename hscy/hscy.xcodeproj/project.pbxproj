@@ -1,0 +1,928 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7723C5541FA0701B0090B117 /* HSCYMyFriendCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7723C5531FA0701B0090B117 /* HSCYMyFriendCellView.swift */; };
+		7723C5571FA1727C0090B117 /* HSCYFriendTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7723C5551FA1727B0090B117 /* HSCYFriendTableCellView.swift */; };
+		7723C5581FA1727C0090B117 /* HSCYFriendTableCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7723C5561FA1727B0090B117 /* HSCYFriendTableCellView.xib */; };
+		7723C55A1FA1A2CC0090B117 /* HSCYAcceptOrRejectShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7723C5591FA1A2CC0090B117 /* HSCYAcceptOrRejectShareViewController.swift */; };
+		7725BECA1F6BC06C00B5FC41 /* HSCYSAssociatedShipCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7725BEC91F6BC06C00B5FC41 /* HSCYSAssociatedShipCellView.swift */; };
+		7725BECC1F6BC07F00B5FC41 /* HSCYSAssociatedShipCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7725BECB1F6BC07F00B5FC41 /* HSCYSAssociatedShipCellView.xib */; };
+		772A8B0B1F9F201A00E99B3B /* HSCYShareBoatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772A8B091F9F201A00E99B3B /* HSCYShareBoatViewController.swift */; };
+		774C70641FA2FAC2002588C8 /* HSCYMyFriendCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 774C70631FA2FAC1002588C8 /* HSCYMyFriendCellView.xib */; };
+		7771FA011F99FE3F00862F76 /* HSCYAcceptOrRejectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771F9DD1F99FE3E00862F76 /* HSCYAcceptOrRejectViewController.swift */; };
+		7771FA021F99FE3F00862F76 /* HSCYaddFriendInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771F9DE1F99FE3E00862F76 /* HSCYaddFriendInfoView.swift */; };
+		7771FA031F99FE3F00862F76 /* HSCYaddFriendInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7771F9DF1F99FE3E00862F76 /* HSCYaddFriendInfoView.xib */; };
+		7771FA041F99FE3F00862F76 /* HSCYAddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771F9E01F99FE3E00862F76 /* HSCYAddFriendViewController.swift */; };
+		7771FA051F99FE3F00862F76 /* HSCYAskedQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771F9E11F99FE3E00862F76 /* HSCYAskedQuestionViewController.swift */; };
+		7771FA061F99FE3F00862F76 /* HSCYAssistanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771F9E21F99FE3E00862F76 /* HSCYAssistanceViewController.swift */; };
+		7771FA071F99FE3F00862F76 /* HSCYBoatInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771F9E31F99FE3E00862F76 /* HSCYBoatInfoTableViewController.swift */; };
+		7771FA081F99FE3F00862F76 /* HSCYBridgeInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771F9E41F99FE3E00862F76 /* HSCYBridgeInfoTableViewController.swift */; };
+		7771FA091F99FE3F00862F76 /* HSCYCameraInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771F9E51F99FE3E00862F76 /* HSCYCameraInfoTableViewController.swift */; };
+		7771FA0A1F99FE3F00862F76 /* HSCYJYCXInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771F9E61F99FE3E00862F76 /* HSCYJYCXInfoTableViewController.swift */; };
+		7771FA0B1F99FE3F00862F76 /* HSCYMyFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771F9E71F99FE3E00862F76 /* HSCYMyFriendViewController.swift */; };
+		7771FA0C1F99FE3F00862F76 /* HSCYSAssociatedShipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771F9E81F99FE3E00862F76 /* HSCYSAssociatedShipViewController.swift */; };
+		7771FA0D1F99FE3F00862F76 /* HSCYSeachingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771F9E91F99FE3E00862F76 /* HSCYSeachingViewController.swift */; };
+		7771FA0E1F99FE3F00862F76 /* HSCYSettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771F9EA1F99FE3E00862F76 /* HSCYSettingTableViewController.swift */; };
+		7771FA0F1F99FE3F00862F76 /* HSCYTechnicalSupportViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771F9EB1F99FE3E00862F76 /* HSCYTechnicalSupportViewControler.swift */; };
+		7771FA101F99FE3F00862F76 /* HSCYWharfInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771F9EC1F99FE3E00862F76 /* HSCYWharfInfoTableViewController.swift */; };
+		7771FA111F99FE3F00862F76 /* HSCYChangePwdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771F9EE1F99FE3E00862F76 /* HSCYChangePwdViewController.swift */; };
+		7771FA121F99FE3F00862F76 /* HSCYForgetPwdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771F9EF1F99FE3E00862F76 /* HSCYForgetPwdViewController.swift */; };
+		7771FA131F99FE3F00862F76 /* HSCYLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771F9F01F99FE3E00862F76 /* HSCYLoginViewController.swift */; };
+		7771FA141F99FE3F00862F76 /* HSCYRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771F9F11F99FE3E00862F76 /* HSCYRegisterViewController.swift */; };
+		7771FA151F99FE3F00862F76 /* mapSeachingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771F9F21F99FE3E00862F76 /* mapSeachingView.swift */; };
+		7771FA181F99FE3F00862F76 /* NearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771F9F61F99FE3E00862F76 /* NearView.swift */; };
+		7771FA191F99FE3F00862F76 /* HSCYNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771F9F81F99FE3E00862F76 /* HSCYNavigationViewController.swift */; };
+		7771FA1A1F99FE3F00862F76 /* HSCYTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771F9F91F99FE3E00862F76 /* HSCYTabBarController.swift */; };
+		7771FA1B1F99FE3F00862F76 /* HSCYTapGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771F9FA1F99FE3E00862F76 /* HSCYTapGestureRecognizer.swift */; };
+		7771FA1D1F99FE3F00862F76 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771F9FD1F99FE3E00862F76 /* SettingViewController.swift */; };
+		7773ABEE1F68D8B1000C2808 /* HSCYLeftRightTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7773ABED1F68D8B1000C2808 /* HSCYLeftRightTableCellView.swift */; };
+		7773ABF01F68D8FD000C2808 /* HSCYLeftRightTableCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7773ABEF1F68D8FD000C2808 /* HSCYLeftRightTableCellView.xib */; };
+		7773ABF21F68D94B000C2808 /* HSCYTopBottomTableCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7773ABF11F68D94B000C2808 /* HSCYTopBottomTableCellView.xib */; };
+		7773ABF41F68D956000C2808 /* HSCYTopBottomTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7773ABF31F68D956000C2808 /* HSCYTopBottomTableCellView.swift */; };
+		77CA64691F5F8C69000F856E /* PickDateCallOutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77CA64681F5F8C69000F856E /* PickDateCallOutView.xib */; };
+		77CA646B1F5F90E2000F856E /* PickDateCallOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CA646A1F5F90E2000F856E /* PickDateCallOutView.swift */; };
+		77E93A951F553C9800D26F36 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E93A941F553C9700D26F36 /* Regex.swift */; };
+		77E93AA11F59069C00D26F36 /* PickTableHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77E93AA01F59069900D26F36 /* PickTableHeadView.xib */; };
+		77E93AA31F591A7B00D26F36 /* PickTableHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E93AA21F591A7B00D26F36 /* PickTableHeadView.swift */; };
+		77EEFB201F53102700C6D1B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EEFAC41F53102700C6D1B0 /* AppDelegate.swift */; };
+		77EEFB211F53102700C6D1B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77EEFAC51F53102700C6D1B0 /* Assets.xcassets */; };
+		77EEFB221F53102700C6D1B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77EEFAC61F53102700C6D1B0 /* LaunchScreen.storyboard */; };
+		77EEFB231F53102700C6D1B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77EEFAC81F53102700C6D1B0 /* Main.storyboard */; };
+		77EEFB341F53102700C6D1B0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77EEFB181F53102700C6D1B0 /* Info.plist */; };
+		77EEFB351F53102700C6D1B0 /* LocationAnnoationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EEFB1A1F53102700C6D1B0 /* LocationAnnoationView.swift */; };
+		77EEFB361F53102700C6D1B0 /* CustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EEFB1D1F53102700C6D1B0 /* CustomAnnotationView.m */; };
+		77EEFB371F53102700C6D1B0 /* CustomCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EEFB1F1F53102700C6D1B0 /* CustomCalloutView.m */; };
+		77FC019A1FA1C34E001B66DA /* HSCYFriendBoatInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FC01991FA1C34E001B66DA /* HSCYFriendBoatInfoTableViewController.swift */; };
+		EF2AF2F6CFB70543FA7B47FF /* Pods_hscy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C642E2F279E241E3CAF3096B /* Pods_hscy.framework */; };
+		FF6B9F5F1FE7691900C7D3DE /* FriendBoatLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6B9F5E1FE7691900C7D3DE /* FriendBoatLayout.swift */; };
+		FF9A02E01FA9C4DF001FE99F /* NearFriendListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF9A02DF1FA9C4DF001FE99F /* NearFriendListView.xib */; };
+		FFA604691FB58CF300B63AE0 /* NearFriendListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA604681FB58CF300B63AE0 /* NearFriendListView.swift */; };
+		FFA6046B1FB5A18900B63AE0 /* FriendBoatView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFA6046A1FB5A18900B63AE0 /* FriendBoatView.xib */; };
+		FFA6046D1FB5A44F00B63AE0 /* FriendBoatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA6046C1FB5A44F00B63AE0 /* FriendBoatView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7702FFC71F4531DF00BE407D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7702FFAA1F4531DF00BE407D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7702FFB11F4531DF00BE407D;
+			remoteInfo = hscy;
+		};
+		7702FFD21F4531DF00BE407D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7702FFAA1F4531DF00BE407D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7702FFB11F4531DF00BE407D;
+			remoteInfo = hscy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48332DB6B76D731493E95755 /* Pods-hscy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hscy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hscy/Pods-hscy.debug.xcconfig"; sourceTree = "<group>"; };
+		7723C5531FA0701B0090B117 /* HSCYMyFriendCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSCYMyFriendCellView.swift; sourceTree = "<group>"; };
+		7723C5551FA1727B0090B117 /* HSCYFriendTableCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSCYFriendTableCellView.swift; sourceTree = "<group>"; };
+		7723C5561FA1727B0090B117 /* HSCYFriendTableCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HSCYFriendTableCellView.xib; sourceTree = "<group>"; };
+		7723C5591FA1A2CC0090B117 /* HSCYAcceptOrRejectShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSCYAcceptOrRejectShareViewController.swift; sourceTree = "<group>"; };
+		7725BEC91F6BC06C00B5FC41 /* HSCYSAssociatedShipCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSCYSAssociatedShipCellView.swift; sourceTree = "<group>"; };
+		7725BECB1F6BC07F00B5FC41 /* HSCYSAssociatedShipCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HSCYSAssociatedShipCellView.xib; sourceTree = "<group>"; };
+		772A8B071F9F11C100E99B3B /* hscyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hscyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		772A8B081F9F11C100E99B3B /* hscyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hscyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		772A8B091F9F201A00E99B3B /* HSCYShareBoatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSCYShareBoatViewController.swift; sourceTree = "<group>"; };
+		774C70631FA2FAC1002588C8 /* HSCYMyFriendCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HSCYMyFriendCellView.xib; sourceTree = "<group>"; };
+		7771F9DD1F99FE3E00862F76 /* HSCYAcceptOrRejectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSCYAcceptOrRejectViewController.swift; sourceTree = "<group>"; };
+		7771F9DE1F99FE3E00862F76 /* HSCYaddFriendInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSCYaddFriendInfoView.swift; sourceTree = "<group>"; };
+		7771F9DF1F99FE3E00862F76 /* HSCYaddFriendInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HSCYaddFriendInfoView.xib; sourceTree = "<group>"; };
+		7771F9E01F99FE3E00862F76 /* HSCYAddFriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSCYAddFriendViewController.swift; sourceTree = "<group>"; };
+		7771F9E11F99FE3E00862F76 /* HSCYAskedQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSCYAskedQuestionViewController.swift; sourceTree = "<group>"; };
+		7771F9E21F99FE3E00862F76 /* HSCYAssistanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSCYAssistanceViewController.swift; sourceTree = "<group>"; };
+		7771F9E31F99FE3E00862F76 /* HSCYBoatInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSCYBoatInfoTableViewController.swift; sourceTree = "<group>"; };
+		7771F9E41F99FE3E00862F76 /* HSCYBridgeInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSCYBridgeInfoTableViewController.swift; sourceTree = "<group>"; };
+		7771F9E51F99FE3E00862F76 /* HSCYCameraInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSCYCameraInfoTableViewController.swift; sourceTree = "<group>"; };
+		7771F9E61F99FE3E00862F76 /* HSCYJYCXInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSCYJYCXInfoTableViewController.swift; sourceTree = "<group>"; };
+		7771F9E71F99FE3E00862F76 /* HSCYMyFriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSCYMyFriendViewController.swift; sourceTree = "<group>"; };
+		7771F9E81F99FE3E00862F76 /* HSCYSAssociatedShipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSCYSAssociatedShipViewController.swift; sourceTree = "<group>"; };
+		7771F9E91F99FE3E00862F76 /* HSCYSeachingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSCYSeachingViewController.swift; sourceTree = "<group>"; };
+		7771F9EA1F99FE3E00862F76 /* HSCYSettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSCYSettingTableViewController.swift; sourceTree = "<group>"; };
+		7771F9EB1F99FE3E00862F76 /* HSCYTechnicalSupportViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSCYTechnicalSupportViewControler.swift; sourceTree = "<group>"; };
+		7771F9EC1F99FE3E00862F76 /* HSCYWharfInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSCYWharfInfoTableViewController.swift; sourceTree = "<group>"; };
+		7771F9EE1F99FE3E00862F76 /* HSCYChangePwdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSCYChangePwdViewController.swift; sourceTree = "<group>"; };
+		7771F9EF1F99FE3E00862F76 /* HSCYForgetPwdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSCYForgetPwdViewController.swift; sourceTree = "<group>"; };
+		7771F9F01F99FE3E00862F76 /* HSCYLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSCYLoginViewController.swift; sourceTree = "<group>"; };
+		7771F9F11F99FE3E00862F76 /* HSCYRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSCYRegisterViewController.swift; sourceTree = "<group>"; };
+		7771F9F21F99FE3E00862F76 /* mapSeachingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapSeachingView.swift; sourceTree = "<group>"; };
+		7771F9F61F99FE3E00862F76 /* NearView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearView.swift; sourceTree = "<group>"; };
+		7771F9F81F99FE3E00862F76 /* HSCYNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSCYNavigationViewController.swift; sourceTree = "<group>"; };
+		7771F9F91F99FE3E00862F76 /* HSCYTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSCYTabBarController.swift; sourceTree = "<group>"; };
+		7771F9FA1F99FE3E00862F76 /* HSCYTapGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSCYTapGestureRecognizer.swift; sourceTree = "<group>"; };
+		7771F9FD1F99FE3E00862F76 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		7773ABED1F68D8B1000C2808 /* HSCYLeftRightTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSCYLeftRightTableCellView.swift; sourceTree = "<group>"; };
+		7773ABEF1F68D8FD000C2808 /* HSCYLeftRightTableCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HSCYLeftRightTableCellView.xib; sourceTree = "<group>"; };
+		7773ABF11F68D94B000C2808 /* HSCYTopBottomTableCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HSCYTopBottomTableCellView.xib; sourceTree = "<group>"; };
+		7773ABF31F68D956000C2808 /* HSCYTopBottomTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSCYTopBottomTableCellView.swift; sourceTree = "<group>"; };
+		77CA64671F5F86A7000F856E /* hscy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = hscy.entitlements; sourceTree = "<group>"; };
+		77CA64681F5F8C69000F856E /* PickDateCallOutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickDateCallOutView.xib; sourceTree = "<group>"; };
+		77CA646A1F5F90E2000F856E /* PickDateCallOutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickDateCallOutView.swift; sourceTree = "<group>"; };
+		77E93A941F553C9700D26F36 /* Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
+		77E93A9A1F566B9100D26F36 /* hscy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hscy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77E93AA01F59069900D26F36 /* PickTableHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickTableHeadView.xib; sourceTree = "<group>"; };
+		77E93AA21F591A7B00D26F36 /* PickTableHeadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickTableHeadView.swift; sourceTree = "<group>"; };
+		77EEFAC41F53102700C6D1B0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77EEFAC51F53102700C6D1B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77EEFAC71F53102700C6D1B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77EEFAC91F53102700C6D1B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77EEFACA1F53102700C6D1B0 /* Bridging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bridging.h; sourceTree = "<group>"; };
+		77EEFB181F53102700C6D1B0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77EEFB1A1F53102700C6D1B0 /* LocationAnnoationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationAnnoationView.swift; sourceTree = "<group>"; };
+		77EEFB1C1F53102700C6D1B0 /* CustomAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotationView.h; sourceTree = "<group>"; };
+		77EEFB1D1F53102700C6D1B0 /* CustomAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotationView.m; sourceTree = "<group>"; };
+		77EEFB1E1F53102700C6D1B0 /* CustomCalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCalloutView.h; sourceTree = "<group>"; };
+		77EEFB1F1F53102700C6D1B0 /* CustomCalloutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCalloutView.m; sourceTree = "<group>"; };
+		77FC01991FA1C34E001B66DA /* HSCYFriendBoatInfoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSCYFriendBoatInfoTableViewController.swift; sourceTree = "<group>"; };
+		87D0BE24FCED533CA398987F /* Pods-hscy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hscy.release.xcconfig"; path = "Pods/Target Support Files/Pods-hscy/Pods-hscy.release.xcconfig"; sourceTree = "<group>"; };
+		C642E2F279E241E3CAF3096B /* Pods_hscy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hscy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF6B9F5E1FE7691900C7D3DE /* FriendBoatLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendBoatLayout.swift; sourceTree = "<group>"; };
+		FF9A02DF1FA9C4DF001FE99F /* NearFriendListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NearFriendListView.xib; sourceTree = "<group>"; };
+		FFA604681FB58CF300B63AE0 /* NearFriendListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearFriendListView.swift; sourceTree = "<group>"; };
+		FFA6046A1FB5A18900B63AE0 /* FriendBoatView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendBoatView.xib; sourceTree = "<group>"; };
+		FFA6046C1FB5A44F00B63AE0 /* FriendBoatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendBoatView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7702FFAF1F4531DF00BE407D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2AF2F6CFB70543FA7B47FF /* Pods_hscy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7702FFC31F4531DF00BE407D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7702FFCE1F4531DF00BE407D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7702FFA91F4531DF00BE407D = {
+			isa = PBXGroup;
+			children = (
+				77EEFAC31F53102700C6D1B0 /* hscy */,
+				ECC793452382D6D8B6295CE4 /* Pods */,
+				9BF7697B08B8A9F53513B009 /* Frameworks */,
+				77E93A9A1F566B9100D26F36 /* hscy.app */,
+				772A8B071F9F11C100E99B3B /* hscyTests.xctest */,
+				772A8B081F9F11C100E99B3B /* hscyUITests.xctest */,
+			);
+			sourceTree = "<group>";
+		};
+		774C70651FA31906002588C8 /* DataSearching */ = {
+			isa = PBXGroup;
+			children = (
+				7771F9E91F99FE3E00862F76 /* HSCYSeachingViewController.swift */,
+				7771F9E61F99FE3E00862F76 /* HSCYJYCXInfoTableViewController.swift */,
+			);
+			path = DataSearching;
+			sourceTree = "<group>";
+		};
+		774C70661FA31955002588C8 /* AssistanceInfo */ = {
+			isa = PBXGroup;
+			children = (
+				7771F9E21F99FE3E00862F76 /* HSCYAssistanceViewController.swift */,
+			);
+			path = AssistanceInfo;
+			sourceTree = "<group>";
+		};
+		774C70681FA31A68002588C8 /* Relationship */ = {
+			isa = PBXGroup;
+			children = (
+				7771F9E81F99FE3E00862F76 /* HSCYSAssociatedShipViewController.swift */,
+				77FC01991FA1C34E001B66DA /* HSCYFriendBoatInfoTableViewController.swift */,
+				7723C5591FA1A2CC0090B117 /* HSCYAcceptOrRejectShareViewController.swift */,
+				772A8B091F9F201A00E99B3B /* HSCYShareBoatViewController.swift */,
+			);
+			path = Relationship;
+			sourceTree = "<group>";
+		};
+		774C70691FA31AB2002588C8 /* ChangePassword */ = {
+			isa = PBXGroup;
+			children = (
+				7771F9EE1F99FE3E00862F76 /* HSCYChangePwdViewController.swift */,
+			);
+			path = ChangePassword;
+			sourceTree = "<group>";
+		};
+		774C706A1FA31ACC002588C8 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				7771F9E11F99FE3E00862F76 /* HSCYAskedQuestionViewController.swift */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		774C706B1FA31AD7002588C8 /* Technology */ = {
+			isa = PBXGroup;
+			children = (
+				7771F9EB1F99FE3E00862F76 /* HSCYTechnicalSupportViewControler.swift */,
+			);
+			path = Technology;
+			sourceTree = "<group>";
+		};
+		774C706C1FA31BC7002588C8 /* Friend */ = {
+			isa = PBXGroup;
+			children = (
+				7771F9E71F99FE3E00862F76 /* HSCYMyFriendViewController.swift */,
+				7771F9DD1F99FE3E00862F76 /* HSCYAcceptOrRejectViewController.swift */,
+				7771F9E01F99FE3E00862F76 /* HSCYAddFriendViewController.swift */,
+			);
+			path = Friend;
+			sourceTree = "<group>";
+		};
+		7771F9D91F99FE3E00862F76 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				774C70661FA31955002588C8 /* AssistanceInfo */,
+				774C70651FA31906002588C8 /* DataSearching */,
+				7771F9ED1F99FE3E00862F76 /* LoginAndRegister */,
+				7771F9F51F99FE3E00862F76 /* Near */,
+				7771F9F71F99FE3E00862F76 /* Root */,
+				7771F9FC1F99FE3E00862F76 /* Setting */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7771F9ED1F99FE3E00862F76 /* LoginAndRegister */ = {
+			isa = PBXGroup;
+			children = (
+				7771F9EF1F99FE3E00862F76 /* HSCYForgetPwdViewController.swift */,
+				7771F9F01F99FE3E00862F76 /* HSCYLoginViewController.swift */,
+				7771F9F11F99FE3E00862F76 /* HSCYRegisterViewController.swift */,
+			);
+			path = LoginAndRegister;
+			sourceTree = "<group>";
+		};
+		7771F9F51F99FE3E00862F76 /* Near */ = {
+			isa = PBXGroup;
+			children = (
+				7771F9E31F99FE3E00862F76 /* HSCYBoatInfoTableViewController.swift */,
+				7771F9E41F99FE3E00862F76 /* HSCYBridgeInfoTableViewController.swift */,
+				7771F9E51F99FE3E00862F76 /* HSCYCameraInfoTableViewController.swift */,
+				7771F9EC1F99FE3E00862F76 /* HSCYWharfInfoTableViewController.swift */,
+				7771F9F21F99FE3E00862F76 /* mapSeachingView.swift */,
+				7771F9F61F99FE3E00862F76 /* NearView.swift */,
+			);
+			path = Near;
+			sourceTree = "<group>";
+		};
+		7771F9F71F99FE3E00862F76 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				7771F9F81F99FE3E00862F76 /* HSCYNavigationViewController.swift */,
+				7771F9F91F99FE3E00862F76 /* HSCYTabBarController.swift */,
+				7771F9FA1F99FE3E00862F76 /* HSCYTapGestureRecognizer.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		7771F9FC1F99FE3E00862F76 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				774C706C1FA31BC7002588C8 /* Friend */,
+				7771F9EA1F99FE3E00862F76 /* HSCYSettingTableViewController.swift */,
+				774C706B1FA31AD7002588C8 /* Technology */,
+				774C706A1FA31ACC002588C8 /* Help */,
+				774C70691FA31AB2002588C8 /* ChangePassword */,
+				774C70681FA31A68002588C8 /* Relationship */,
+				7771F9FD1F99FE3E00862F76 /* SettingViewController.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		77EEFAC31F53102700C6D1B0 /* hscy */ = {
+			isa = PBXGroup;
+			children = (
+				7771F9D91F99FE3E00862F76 /* Controllers */,
+				77CA64671F5F86A7000F856E /* hscy.entitlements */,
+				77EEFAC41F53102700C6D1B0 /* AppDelegate.swift */,
+				77EEFAC51F53102700C6D1B0 /* Assets.xcassets */,
+				77EEFAC61F53102700C6D1B0 /* LaunchScreen.storyboard */,
+				77EEFAC81F53102700C6D1B0 /* Main.storyboard */,
+				77EEFACA1F53102700C6D1B0 /* Bridging.h */,
+				77EEFB181F53102700C6D1B0 /* Info.plist */,
+				77EEFB191F53102700C6D1B0 /* Views */,
+				77E93A941F553C9700D26F36 /* Regex.swift */,
+			);
+			path = hscy;
+			sourceTree = "<group>";
+		};
+		77EEFB191F53102700C6D1B0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				774C70631FA2FAC1002588C8 /* HSCYMyFriendCellView.xib */,
+				7771F9DE1F99FE3E00862F76 /* HSCYaddFriendInfoView.swift */,
+				7771F9DF1F99FE3E00862F76 /* HSCYaddFriendInfoView.xib */,
+				7723C5531FA0701B0090B117 /* HSCYMyFriendCellView.swift */,
+				77EEFB1A1F53102700C6D1B0 /* LocationAnnoationView.swift */,
+				FF9A02DF1FA9C4DF001FE99F /* NearFriendListView.xib */,
+				FFA604681FB58CF300B63AE0 /* NearFriendListView.swift */,
+				77EEFB1B1F53102700C6D1B0 /* ThirdParty */,
+				77E93AA01F59069900D26F36 /* PickTableHeadView.xib */,
+				77E93AA21F591A7B00D26F36 /* PickTableHeadView.swift */,
+				FFA6046A1FB5A18900B63AE0 /* FriendBoatView.xib */,
+				FFA6046C1FB5A44F00B63AE0 /* FriendBoatView.swift */,
+				77CA64681F5F8C69000F856E /* PickDateCallOutView.xib */,
+				77CA646A1F5F90E2000F856E /* PickDateCallOutView.swift */,
+				7773ABEF1F68D8FD000C2808 /* HSCYLeftRightTableCellView.xib */,
+				7773ABED1F68D8B1000C2808 /* HSCYLeftRightTableCellView.swift */,
+				7773ABF11F68D94B000C2808 /* HSCYTopBottomTableCellView.xib */,
+				7773ABF31F68D956000C2808 /* HSCYTopBottomTableCellView.swift */,
+				7725BEC91F6BC06C00B5FC41 /* HSCYSAssociatedShipCellView.swift */,
+				7725BECB1F6BC07F00B5FC41 /* HSCYSAssociatedShipCellView.xib */,
+				7723C5551FA1727B0090B117 /* HSCYFriendTableCellView.swift */,
+				7723C5561FA1727B0090B117 /* HSCYFriendTableCellView.xib */,
+				FF6B9F5E1FE7691900C7D3DE /* FriendBoatLayout.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		77EEFB1B1F53102700C6D1B0 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				77EEFB1C1F53102700C6D1B0 /* CustomAnnotationView.h */,
+				77EEFB1D1F53102700C6D1B0 /* CustomAnnotationView.m */,
+				77EEFB1E1F53102700C6D1B0 /* CustomCalloutView.h */,
+				77EEFB1F1F53102700C6D1B0 /* CustomCalloutView.m */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		9BF7697B08B8A9F53513B009 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C642E2F279E241E3CAF3096B /* Pods_hscy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECC793452382D6D8B6295CE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48332DB6B76D731493E95755 /* Pods-hscy.debug.xcconfig */,
+				87D0BE24FCED533CA398987F /* Pods-hscy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7702FFB11F4531DF00BE407D /* hscy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7702FFDA1F4531DF00BE407D /* Build configuration list for PBXNativeTarget "hscy" */;
+			buildPhases = (
+				F97F3DC875F074E94D0C0807 /* [CP] Check Pods Manifest.lock */,
+				7702FFAE1F4531DF00BE407D /* Sources */,
+				7702FFAF1F4531DF00BE407D /* Frameworks */,
+				7702FFB01F4531DF00BE407D /* Resources */,
+				BDABC828BB6F69303BE7906F /* [CP] Embed Pods Frameworks */,
+				D443145435C63B4401284F93 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hscy;
+			productName = hscy;
+			productReference = 77E93A9A1F566B9100D26F36 /* hscy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7702FFC51F4531DF00BE407D /* hscyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7702FFDD1F4531DF00BE407D /* Build configuration list for PBXNativeTarget "hscyTests" */;
+			buildPhases = (
+				7702FFC21F4531DF00BE407D /* Sources */,
+				7702FFC31F4531DF00BE407D /* Frameworks */,
+				7702FFC41F4531DF00BE407D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7702FFC81F4531DF00BE407D /* PBXTargetDependency */,
+			);
+			name = hscyTests;
+			productName = hscyTests;
+			productReference = 772A8B071F9F11C100E99B3B /* hscyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7702FFD01F4531DF00BE407D /* hscyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7702FFE01F4531DF00BE407D /* Build configuration list for PBXNativeTarget "hscyUITests" */;
+			buildPhases = (
+				7702FFCD1F4531DF00BE407D /* Sources */,
+				7702FFCE1F4531DF00BE407D /* Frameworks */,
+				7702FFCF1F4531DF00BE407D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7702FFD31F4531DF00BE407D /* PBXTargetDependency */,
+			);
+			name = hscyUITests;
+			productName = hscyUITests;
+			productReference = 772A8B081F9F11C100E99B3B /* hscyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7702FFAA1F4531DF00BE407D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HSCY;
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = marinfo;
+				TargetAttributes = {
+					7702FFB11F4531DF00BE407D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7RB79MJB24;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					7702FFC51F4531DF00BE407D = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7702FFB11F4531DF00BE407D;
+					};
+					7702FFD01F4531DF00BE407D = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7702FFB11F4531DF00BE407D;
+					};
+				};
+			};
+			buildConfigurationList = 7702FFAD1F4531DF00BE407D /* Build configuration list for PBXProject "hscy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7702FFA91F4531DF00BE407D;
+			productRefGroup = 7702FFA91F4531DF00BE407D;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7702FFB11F4531DF00BE407D /* hscy */,
+				7702FFC51F4531DF00BE407D /* hscyTests */,
+				7702FFD01F4531DF00BE407D /* hscyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7702FFB01F4531DF00BE407D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77EEFB341F53102700C6D1B0 /* Info.plist in Resources */,
+				774C70641FA2FAC2002588C8 /* HSCYMyFriendCellView.xib in Resources */,
+				FF9A02E01FA9C4DF001FE99F /* NearFriendListView.xib in Resources */,
+				7725BECC1F6BC07F00B5FC41 /* HSCYSAssociatedShipCellView.xib in Resources */,
+				7773ABF21F68D94B000C2808 /* HSCYTopBottomTableCellView.xib in Resources */,
+				77E93AA11F59069C00D26F36 /* PickTableHeadView.xib in Resources */,
+				77CA64691F5F8C69000F856E /* PickDateCallOutView.xib in Resources */,
+				77EEFB231F53102700C6D1B0 /* Main.storyboard in Resources */,
+				FFA6046B1FB5A18900B63AE0 /* FriendBoatView.xib in Resources */,
+				7773ABF01F68D8FD000C2808 /* HSCYLeftRightTableCellView.xib in Resources */,
+				7771FA031F99FE3F00862F76 /* HSCYaddFriendInfoView.xib in Resources */,
+				77EEFB211F53102700C6D1B0 /* Assets.xcassets in Resources */,
+				7723C5581FA1727C0090B117 /* HSCYFriendTableCellView.xib in Resources */,
+				77EEFB221F53102700C6D1B0 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7702FFC41F4531DF00BE407D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7702FFCF1F4531DF00BE407D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BDABC828BB6F69303BE7906F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hscy/Pods-hscy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D443145435C63B4401284F93 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hscy/Pods-hscy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F97F3DC875F074E94D0C0807 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7702FFAE1F4531DF00BE407D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77CA646B1F5F90E2000F856E /* PickDateCallOutView.swift in Sources */,
+				7771FA091F99FE3F00862F76 /* HSCYCameraInfoTableViewController.swift in Sources */,
+				77E93A951F553C9800D26F36 /* Regex.swift in Sources */,
+				7771FA131F99FE3F00862F76 /* HSCYLoginViewController.swift in Sources */,
+				7723C55A1FA1A2CC0090B117 /* HSCYAcceptOrRejectShareViewController.swift in Sources */,
+				7771FA021F99FE3F00862F76 /* HSCYaddFriendInfoView.swift in Sources */,
+				77E93AA31F591A7B00D26F36 /* PickTableHeadView.swift in Sources */,
+				FFA604691FB58CF300B63AE0 /* NearFriendListView.swift in Sources */,
+				7771FA081F99FE3F00862F76 /* HSCYBridgeInfoTableViewController.swift in Sources */,
+				7773ABF41F68D956000C2808 /* HSCYTopBottomTableCellView.swift in Sources */,
+				7771FA121F99FE3F00862F76 /* HSCYForgetPwdViewController.swift in Sources */,
+				7771FA011F99FE3F00862F76 /* HSCYAcceptOrRejectViewController.swift in Sources */,
+				7771FA0D1F99FE3F00862F76 /* HSCYSeachingViewController.swift in Sources */,
+				7771FA141F99FE3F00862F76 /* HSCYRegisterViewController.swift in Sources */,
+				7771FA061F99FE3F00862F76 /* HSCYAssistanceViewController.swift in Sources */,
+				77FC019A1FA1C34E001B66DA /* HSCYFriendBoatInfoTableViewController.swift in Sources */,
+				7771FA071F99FE3F00862F76 /* HSCYBoatInfoTableViewController.swift in Sources */,
+				7771FA191F99FE3F00862F76 /* HSCYNavigationViewController.swift in Sources */,
+				7723C5541FA0701B0090B117 /* HSCYMyFriendCellView.swift in Sources */,
+				7771FA111F99FE3F00862F76 /* HSCYChangePwdViewController.swift in Sources */,
+				7771FA051F99FE3F00862F76 /* HSCYAskedQuestionViewController.swift in Sources */,
+				FF6B9F5F1FE7691900C7D3DE /* FriendBoatLayout.swift in Sources */,
+				7771FA0A1F99FE3F00862F76 /* HSCYJYCXInfoTableViewController.swift in Sources */,
+				7771FA151F99FE3F00862F76 /* mapSeachingView.swift in Sources */,
+				7771FA0C1F99FE3F00862F76 /* HSCYSAssociatedShipViewController.swift in Sources */,
+				7771FA0B1F99FE3F00862F76 /* HSCYMyFriendViewController.swift in Sources */,
+				7771FA041F99FE3F00862F76 /* HSCYAddFriendViewController.swift in Sources */,
+				7771FA1A1F99FE3F00862F76 /* HSCYTabBarController.swift in Sources */,
+				7771FA101F99FE3F00862F76 /* HSCYWharfInfoTableViewController.swift in Sources */,
+				7771FA181F99FE3F00862F76 /* NearView.swift in Sources */,
+				7771FA0E1F99FE3F00862F76 /* HSCYSettingTableViewController.swift in Sources */,
+				7771FA0F1F99FE3F00862F76 /* HSCYTechnicalSupportViewControler.swift in Sources */,
+				7771FA1B1F99FE3F00862F76 /* HSCYTapGestureRecognizer.swift in Sources */,
+				772A8B0B1F9F201A00E99B3B /* HSCYShareBoatViewController.swift in Sources */,
+				77EEFB351F53102700C6D1B0 /* LocationAnnoationView.swift in Sources */,
+				7725BECA1F6BC06C00B5FC41 /* HSCYSAssociatedShipCellView.swift in Sources */,
+				77EEFB371F53102700C6D1B0 /* CustomCalloutView.m in Sources */,
+				FFA6046D1FB5A44F00B63AE0 /* FriendBoatView.swift in Sources */,
+				7723C5571FA1727C0090B117 /* HSCYFriendTableCellView.swift in Sources */,
+				7773ABEE1F68D8B1000C2808 /* HSCYLeftRightTableCellView.swift in Sources */,
+				7771FA1D1F99FE3F00862F76 /* SettingViewController.swift in Sources */,
+				77EEFB201F53102700C6D1B0 /* AppDelegate.swift in Sources */,
+				77EEFB361F53102700C6D1B0 /* CustomAnnotationView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7702FFC21F4531DF00BE407D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7702FFCD1F4531DF00BE407D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7702FFC81F4531DF00BE407D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7702FFB11F4531DF00BE407D /* hscy */;
+			targetProxy = 7702FFC71F4531DF00BE407D /* PBXContainerItemProxy */;
+		};
+		7702FFD31F4531DF00BE407D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7702FFB11F4531DF00BE407D /* hscy */;
+			targetProxy = 7702FFD21F4531DF00BE407D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77EEFAC61F53102700C6D1B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77EEFAC71F53102700C6D1B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		77EEFAC81F53102700C6D1B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77EEFAC91F53102700C6D1B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7702FFD81F4531DF00BE407D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7702FFD91F4531DF00BE407D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7702FFDB1F4531DF00BE407D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48332DB6B76D731493E95755 /* Pods-hscy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = hscy/hscy.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RB79MJB24;
+				INFOPLIST_FILE = hscy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marinfo.hscy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/hscy/Bridging.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7702FFDC1F4531DF00BE407D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87D0BE24FCED533CA398987F /* Pods-hscy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = hscy/hscy.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RB79MJB24;
+				INFOPLIST_FILE = hscy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marinfo.hscy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/hscy/Bridging.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7702FFDE1F4531DF00BE407D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hscyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.melodydubai.hscyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hscy.app/hscy";
+			};
+			name = Debug;
+		};
+		7702FFDF1F4531DF00BE407D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hscyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.melodydubai.hscyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hscy.app/hscy";
+			};
+			name = Release;
+		};
+		7702FFE11F4531DF00BE407D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = hscyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.melodydubai.hscyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = hscy;
+			};
+			name = Debug;
+		};
+		7702FFE21F4531DF00BE407D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = hscyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.melodydubai.hscyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = hscy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7702FFAD1F4531DF00BE407D /* Build configuration list for PBXProject "hscy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7702FFD81F4531DF00BE407D /* Debug */,
+				7702FFD91F4531DF00BE407D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7702FFDA1F4531DF00BE407D /* Build configuration list for PBXNativeTarget "hscy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7702FFDB1F4531DF00BE407D /* Debug */,
+				7702FFDC1F4531DF00BE407D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7702FFDD1F4531DF00BE407D /* Build configuration list for PBXNativeTarget "hscyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7702FFDE1F4531DF00BE407D /* Debug */,
+				7702FFDF1F4531DF00BE407D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7702FFE01F4531DF00BE407D /* Build configuration list for PBXNativeTarget "hscyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7702FFE11F4531DF00BE407D /* Debug */,
+				7702FFE21F4531DF00BE407D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7702FFAA1F4531DF00BE407D /* Project object */;
+}
